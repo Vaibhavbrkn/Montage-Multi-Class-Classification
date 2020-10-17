@@ -1,0 +1,4 @@
+command for training :
+python train.py --dataset dataset --model fashion.model --labelbin mlb.pickle 
+command for classification :
+python classify.py --model fashion.model --labelbin mlb.pickle --image example/example_01.jpg
